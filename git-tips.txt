@@ -1,0 +1,56 @@
+ Create a repository
+drag into / open with VSCode
+create a file with any extention e.g learngit.txt
+type a content into it
+...to take it to github as a repository...
+press ctrl ~ to open the command terminal
+typr the command 'git init'
+it initializes
+check git status by typing the command 
+'git status'
+this will show the new file as not yet being pushed to git
+
+next, add the file to the staging area to get ready for upload
+
+local directory -> staging dir -> remote dir(github)
+
+to take the learngit.txt to the staging dir,
+type the command 'git add learngit.txt'
+
+next type command note git commit -m "added learngit.txt"
+
+next check status again
+
+go to git online profile and create a repository for this work.
+after, follow the the commands as given on the website, such as follows
+
+remote 
+A: …or create a new repository on the command line
+echo "# GITrepo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/teakei-bits/GITrepo.git
+git push -u origin main
+
+
+B.…or push an existing repository from the command line
+git remote add origin https://github.com/teakei-bits/GITrepo.git
+git branch -M main
+git push -u origin main
+
+C. 
+https://github.com/teakei-bits/clockEngland.git
+
+
+-------------
+
+
+echo "# clock" >> README.md
+git init
+git add README.md
+git commit -m "first commit"git 
+git branch -M main
+git remote add origin https://github.com/teakei-bits/clock.git
+git push -u origin main
